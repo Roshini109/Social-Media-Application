@@ -2,6 +2,7 @@
     flex: 3;
     height: calc(100vh - 50px);
     overflow-y: scroll;
+    
 }
 
 ::-webkit-scrollbar {
@@ -24,6 +25,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    
 }
 
 .sidebarListItem{
