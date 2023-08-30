@@ -38,34 +38,46 @@
     list-style: none;
 }
 
-.rightbarFriend{
+.rightbarTitle{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.rightbarInfo{
+    margin-bottom: 40px;
+}
+
+.rightbarInfoItem{
+    margin-bottom: 10px;
+}
+
+.rightbarInfoKey{
+    font-weight: bold;
+    margin-right: 15px;
+    color: #636363;
+}
+
+.righbarInfoValue{
+    font-weight: 300;
+}
+
+.rightbarFollowings{
     display: flex;
-    align-items: center;
-    margin-bottom: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.rightbarProfileImgContainer{
-    margin-right: 10px;
-    position: relative;
+.rightbarFollowing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 
-.rightbarProfileImg{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-
-.rightbarOnline{
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: limegreen;
-    position: absolute;
-    top: -2px;
-    right: 0;
-    border: 2px solid white;
-}
-
-.rightbarUserName{
-    font-weight: 500;
+.rightbarFollowingImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
 }
